@@ -40,7 +40,7 @@ app.post('/', (req, res) => {
 		}else{
             let sentTo = email
             let subject = "Hi, there!"
-            let content = "Hello " + name + " Thankyou for taking time to check my Miniproject. Have a good day! <b>Below attached is your Gift.</b> "
+            let content = "Hello " + name + "!" + " Thankyou for taking out time to check my Miniproject. Have a good day!"
             let response = mailRes.sentMail(sentTo,subject,content)
 
 	        res.render("result.ejs")

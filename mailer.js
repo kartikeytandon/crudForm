@@ -22,11 +22,11 @@ const sentMail = async(sentTo, subject, content) => {
     from: '"Kartikey Tandon👻" <tandonkartikey11@gmail.com>', // sender address
     to: sentTo, // list of receivers
     subject: subject, // Subject line
-    attachments: [{
+    /* attachments: [{
         filename: 'chala ja.jpg',
         path: './chala ja.jpg',
         cid: 'chalaja'
-    }],
+    }], */
     html: content, // html body
   });
 
