@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemailer": "^6.8.0"
+  },
+  "name": "crud_form",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikeytandon/crudForm.git"
+  },
+  "author": "Kartikey Tandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartikeytandon/crudForm/issues"
+  },
+  "homepage": "https://github.com/kartikeytandon/crudForm#readme",
+  "description": ""
+}
