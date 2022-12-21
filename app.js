@@ -8,6 +8,8 @@ app.set('view engine', 'ejs');
 // Importing Mongoose 
 const mongoose = require('mongoose')
 
+const port = process.env.PORT || 3000;
+
 // Requiring Model.js
 var detail = require("./model")
 
@@ -50,6 +52,7 @@ app.post('/', (req, res) => {
 
 
 
-app.listen(3000, function() {
-    console.log("Server started on port 3000");
+app.listen(port, ()=>{
+	console.log('Server running on port $(port)' );
 });
+
